@@ -23,7 +23,7 @@ namespace Food_Mannager
 
         private void Connection_MySql()
         {
-            MySqlConnection con_mysql = new MySqlConnection("server=localhost; database=u264901357_FoodMannager; username=u264901357_admin; password=Hip28062018;");
+            MySqlConnection con_mysql = new MySqlConnection("server=localhost; database=""; username=""; password="";");
 
             if (con_mysql != null)
             {
