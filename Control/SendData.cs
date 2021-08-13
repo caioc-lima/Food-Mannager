@@ -10,7 +10,7 @@ namespace Food_Mannager.Control
 {
     class SendData
     {
-        private static MySqlConnection conMysql = new MySqlConnection("Persist Security Info=False; server=localhost; database=u264901357_FoodMannager; username=u264901357_admin; password=Hip28062018;");
+        private static MySqlConnection conMysql = new MySqlConnection("server=""; database=""; username=""; password="";");
 
         public static bool SAVE_LOJA(Parameters add)
         {
