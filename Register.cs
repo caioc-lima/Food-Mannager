@@ -23,7 +23,7 @@ namespace Food_Mannager
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
 
-        private static MySqlConnection con = new MySqlConnection("server=‎‎‎‎185.201.11.170‎‎‎‎; database=u264901357_FoodMannager; username=u264901357_admin; password=Hip28062018;");
+        private static MySqlConnection con = new MySqlConnection("server=""; database=""; username=""; password="";");
 
         public Register()
         {
